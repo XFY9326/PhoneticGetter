@@ -1,5 +1,11 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
+# ======================================================================
+#
+# Created by XFY9326 on 2020/01/19
+# Last Modified: 2020/01/20 01:45
+#
+# ======================================================================
 import csv
 import os
 
@@ -22,19 +28,27 @@ def phonetic_from_local(word_list: list) -> list:
     return phonetic_list
 
 
+# noinspection PyBroadException
 def phonetic_from_youdao(word_list: list) -> list:
     phonetic_list = []
     base_url = 'http://dict.youdao.com/w/'
     for word in word_list:
-        response = requests.get(base_url + word)
-        soup = BeautifulSoup(response.text, 'html.parser')
-        response.close()
+        try:
+            response = requests.get(base_url + word)
+            if response.status_code == 200:
+                soup = BeautifulSoup(response.text, 'html.parser')
+                response.close()
 
-        pronounces = soup.select('span[class="phonetic"]')
-        if pronounces is None or len(pronounces) == 0:
-            phonetic_list.append('')
-        else:
-            phonetic_list.append(pronounces[0].text[1:-1])
+                pronounces = soup.select('span[class="phonetic"]')
+                if pronounces is None or len(pronounces) == 0:
+                    phonetic_list.append('')
+                else:
+                    phonetic_list.append(pronounces[0].text[1:-1])
+            else:
+                print('> Online Service Response Error')
+                break
+        except:
+            print('> Online Service Error')
     return phonetic_list
 
 

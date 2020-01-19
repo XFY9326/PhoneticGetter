@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="992f3298-ee5c-4945-95fa-393308dc64e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../PhoneticGetter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhoneticGetter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../PhoneticGetter" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Wbv9i4sg6n8J0pgfFVs90P8arl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,6 +34,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -56,82 +60,18 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../PhoneticGetter/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PhoneticGetter" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PhoneticGetter/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="PhoneticGetter" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="PhoneticGetter" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="PhoneticGetter" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <module name="PhoneticGetter" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
   </component>
@@ -172,12 +112,22 @@
       <option name="project" value="LOCAL" />
       <updated>1579448802808</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Init">
+      <created>1579449286641</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579449286641</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="149" key="#Inspections" timestamp="1579432468782">
@@ -197,34 +147,34 @@
       <screen x="0" y="23" width="1680" height="923" />
     </state>
     <state x="597" y="361" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.923@0.23.1680.923" timestamp="1579441729580" />
-    <state x="456" y="88" key="CommitChangelistDialog2" timestamp="1579448802668">
+    <state x="456" y="88" key="CommitChangelistDialog2" timestamp="1579449286496">
       <screen x="0" y="23" width="1680" height="921" />
     </state>
-    <state x="456" y="88" key="CommitChangelistDialog2/0.23.1680.921@0.23.1680.921" timestamp="1579448802668" />
-    <state width="1659" height="311" key="GridCell.Tab.0.bottom" timestamp="1579448269051">
+    <state x="456" y="88" key="CommitChangelistDialog2/0.23.1680.921@0.23.1680.921" timestamp="1579449286496" />
+    <state width="1659" height="311" key="GridCell.Tab.0.bottom" timestamp="1579449358506">
       <screen x="0" y="23" width="1680" height="921" />
     </state>
-    <state width="1659" height="311" key="GridCell.Tab.0.bottom/0.23.1680.921@0.23.1680.921" timestamp="1579448269051" />
+    <state width="1659" height="311" key="GridCell.Tab.0.bottom/0.23.1680.921@0.23.1680.921" timestamp="1579449358506" />
     <state width="1659" height="245" key="GridCell.Tab.0.bottom/0.23.1680.923@0.23.1680.923" timestamp="1579442913424" />
-    <state width="1659" height="311" key="GridCell.Tab.0.center" timestamp="1579448269050">
+    <state width="1659" height="311" key="GridCell.Tab.0.center" timestamp="1579449358506">
       <screen x="0" y="23" width="1680" height="921" />
     </state>
-    <state width="1659" height="311" key="GridCell.Tab.0.center/0.23.1680.921@0.23.1680.921" timestamp="1579448269050" />
+    <state width="1659" height="311" key="GridCell.Tab.0.center/0.23.1680.921@0.23.1680.921" timestamp="1579449358506" />
     <state width="1659" height="245" key="GridCell.Tab.0.center/0.23.1680.923@0.23.1680.923" timestamp="1579442913423" />
-    <state width="1659" height="311" key="GridCell.Tab.0.left" timestamp="1579448269049">
+    <state width="1659" height="311" key="GridCell.Tab.0.left" timestamp="1579449358505">
       <screen x="0" y="23" width="1680" height="921" />
     </state>
-    <state width="1659" height="311" key="GridCell.Tab.0.left/0.23.1680.921@0.23.1680.921" timestamp="1579448269049" />
+    <state width="1659" height="311" key="GridCell.Tab.0.left/0.23.1680.921@0.23.1680.921" timestamp="1579449358505" />
     <state width="1659" height="245" key="GridCell.Tab.0.left/0.23.1680.923@0.23.1680.923" timestamp="1579442913422" />
-    <state width="1659" height="311" key="GridCell.Tab.0.right" timestamp="1579448269050">
+    <state width="1659" height="311" key="GridCell.Tab.0.right" timestamp="1579449358506">
       <screen x="0" y="23" width="1680" height="921" />
     </state>
-    <state width="1659" height="311" key="GridCell.Tab.0.right/0.23.1680.921@0.23.1680.921" timestamp="1579448269050" />
+    <state width="1659" height="311" key="GridCell.Tab.0.right/0.23.1680.921@0.23.1680.921" timestamp="1579449358506" />
     <state width="1659" height="245" key="GridCell.Tab.0.right/0.23.1680.923@0.23.1680.923" timestamp="1579442913424" />
-    <state x="341" y="122" key="SettingsEditor" timestamp="1579448219165">
+    <state x="341" y="122" key="SettingsEditor" timestamp="1579455530247">
       <screen x="0" y="23" width="1680" height="921" />
     </state>
-    <state x="341" y="122" key="SettingsEditor/0.23.1680.921@0.23.1680.921" timestamp="1579448219165" />
+    <state x="341" y="122" key="SettingsEditor/0.23.1680.921@0.23.1680.921" timestamp="1579455530247" />
     <state x="440" y="223" key="Vcs.Push.Dialog.v2" timestamp="1579448640130">
       <screen x="0" y="23" width="1680" height="921" />
     </state>
